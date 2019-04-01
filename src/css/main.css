@@ -1,0 +1,21 @@
+:root {
+--ruddy-pink-color: #DF928E; 
+--isabelline-color: #F3F5EA;
+--dark-vanilla-color: #C7C2A3; 
+--old-rose-color: #C58882; 
+--chinese-violet-color: #867185; 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+html, body, ul, h1 { 
+    margin: 0; 
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+.xxx {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}

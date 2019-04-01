@@ -1,0 +1,22 @@
+section {
+    padding: 1em; 
+}
+
+.fav_item { 
+    padding: 16px 32px; 
+    justify-items: flex-start;
+    display: flex;
+    background-color: crimson;
+    border-bottom: 2px solid aliceblue
+}
+
+p {
+    color: white; 
+    margin-right: 2em; 
+}
+
+button {
+    background-color: deeppink; 
+    border: 1px solid aliceblue;
+    border-radius: 8px;
+}

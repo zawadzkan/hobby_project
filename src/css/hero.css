@@ -1,0 +1,33 @@
+:root {
+    --ruddy-pink-color: #DF928E; 
+    --isabelline-color: #F3F5EA;
+    --dark-vanilla-color: #C7C2A3; 
+    --old-rose-color: #C58882; 
+    --chinese-violet-color: #867185; 
+    }
+
+
+.hero {
+    background-image: url("https://images.unsplash.com/photo-1462737459557-3b7df9ed8f4c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.hero--wrapper { 
+    border: 10px solid var(--isabelline-color); 
+    text-transform: uppercase; 
+    padding: 16px; 
+    margin: 8px; 
+    max-width: 720px;
+}
+
+
+.hero--content { 
+    color: var(--isabelline-color);
+    text-align: center; 
+    font-size: 2em;
+}
