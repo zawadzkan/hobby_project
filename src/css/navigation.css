@@ -10,7 +10,7 @@
     .navigation {
         color: var(--isabelline-color);
         background-color: var(--old-rose-color);
-        background: linear-gradient(9deg, var(--old-rose-color) 50%, var(--dark-vanilla-color) 50%, var(--chinsese-violet-color)25%); 
+        background: linear-gradient( var(--old-rose-color),  var(--chinsese-violet-color), rgb(24, 6, 24)); 
         justify-content: space-around; 
         align-items: center;
         display: flex; 
@@ -22,13 +22,14 @@
     }
 
     .logo {
-        height: 64px; 
-        max-width: 100%;
+        max-height: 120px; 
+        max-width: 70%;
+        border-radius: 50%;
     }
 
     .link-wrapper { 
         padding: 0 16px; 
-        font-size: 1.25em;
+        font-size: 2.0em;
     }
 
     .menu {
@@ -71,6 +72,7 @@
         top: 162px; 
         transform: translate(0%, 0);
         transition: transform 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+        font-size: 1.8em;
     }
 
     .menu input:checked ~ .navigation--hidden-menu {

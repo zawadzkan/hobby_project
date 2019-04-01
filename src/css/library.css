@@ -4,19 +4,22 @@ section {
 
 .fav_item { 
     padding: 16px 32px; 
-    justify-items: flex-start;
     display: flex;
-    background-color: crimson;
+    background-color: #DF928E;
     border-bottom: 2px solid aliceblue
 }
 
 p {
     color: white; 
     margin-right: 2em; 
+    font-size: 2em;
+    float:left;
 }
 
 button {
-    background-color: deeppink; 
+    float: right;
+    background-color: rgba(158, 56, 112, 0.5); 
     border: 1px solid aliceblue;
     border-radius: 8px;
+    width: 50px;
 }
